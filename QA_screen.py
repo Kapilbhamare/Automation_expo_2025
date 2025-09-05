@@ -364,7 +364,7 @@ class QAScreen(QWidget):
         }
     """)
 
-        # Add the icon from resources folder
+        # Add the icon from resources folder .
         if os.path.exists(capture_icon_path):
             self.capture_button.setIcon(QIcon(capture_icon_path))
             self.capture_button.setIconSize(QSize(24, 24))
